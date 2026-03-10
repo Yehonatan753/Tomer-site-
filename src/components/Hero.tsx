@@ -140,7 +140,7 @@ export default function Hero() {
             variants={itemVariants}
             className="text-6xl md:text-[7rem] font-heading font-black text-white leading-[1.1] tracking-tighter"
           >
-            השינוי <span className="text-glow-animate text-transparent bg-clip-text bg-gradient-to-r from-energy to-orange-400">האמיתי</span><br/>
+            השינוי <span className="text-glow-animate text-transparent bg-clip-text bg-gradient-to-r from-energy to-orange-400">האחרון</span><br/>
             שתצטרך לעשות.
           </motion.h1>
         </div>
