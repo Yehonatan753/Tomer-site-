@@ -24,6 +24,7 @@ import LeadMagnetPopup from './components/LeadMagnetPopup';
 import DownloadPopup from './components/DownloadPopup';
 import CursorFollower from './components/CursorFollower';
 
+// GitHub Push Sync Test - 2026-03-10
 export default function App() {
   const [loading, setLoading] = useState(true);
   const [progress, setProgress] = useState(0);
