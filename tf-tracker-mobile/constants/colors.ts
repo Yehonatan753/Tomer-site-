@@ -1,0 +1,17 @@
+export const Colors = {
+  bg: '#050505',
+  surface: '#0A0A0A',
+  surfaceLight: '#111111',
+  surfaceHover: '#1A1A1A',
+  energy: '#FF4D00',
+  energyLight: '#FF7333',
+  energyDim: 'rgba(255, 77, 0, 0.1)',
+  energyGlow: 'rgba(255, 77, 0, 0.3)',
+  textMain: '#FFFFFF',
+  textMuted: '#A1A1AA',
+  borderLight: 'rgba(255, 255, 255, 0.05)',
+  borderMedium: 'rgba(255, 255, 255, 0.10)',
+  success: '#22C55E',
+  error: '#EF4444',
+  warning: '#F59E0B',
+};
