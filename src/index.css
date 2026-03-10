@@ -153,3 +153,39 @@
 }
 
 
+
+
+/* Added for AI Studio Pricing Track Card */
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.animated-border-card {
+  position: relative;
+  border-radius: 1.5rem;
+  padding: 2px;
+  background: linear-gradient(var(--angle), transparent 20%, rgba(255, 255, 255, 0.2) 50%, transparent 80%);
+  animation: rotateBorder 4s linear infinite;
+  transition: all 0.3s ease;
+}
+
+.animated-border-card-popular {
+  position: relative;
+  border-radius: 1.5rem;
+  padding: 2px;
+  background: linear-gradient(var(--angle), transparent 10%, rgba(255, 77, 0, 0.4) 40%, rgba(255, 77, 0, 0.8) 50%, rgba(255, 77, 0, 0.4) 60%, transparent 90%);
+  animation: rotateBorder 4s linear infinite;
+  box-shadow: 0 0 30px rgba(255, 77, 0, 0.1);
+}
+
+.animated-border-card-popular:hover {
+  box-shadow: 0 0 40px rgba(255, 77, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+@keyframes rotateBorder {
+  0% { --angle: 0deg; }
+  100% { --angle: 360deg; }
+}
